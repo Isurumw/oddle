@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check the behavior of the network service: When API throws an error 1`] = `[Error: Some API Error]`;
+
+exports[`check the behavior of the network service: fetched product ids successfully 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "favourites",
+      undefined,
+      "GET",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "_U": 0,
+        "_V": 1,
+        "_W": Object {
+          "data": Array [
+            "cl4cevbjy3liu0cpnim92e5eo",
+          ],
+        },
+        "_X": null,
+      },
+    },
+  ],
+}
+`;

@@ -1,0 +1,14 @@
+export const IBM_PLEX_SANS_BOLD = 'IBMPlexSans-Bold';
+export const IBM_PLEX_SANS_BOLD_ITALIC = 'IBMPlexSans-BoldItalic';
+export const IBM_PLEX_SANS_EXTRA_LIGHT = 'IBMPlexSans-ExtraLight';
+export const IBM_PLEX_SANS_EXTRA_LIGHT_ITALIC = 'IBMPlexSans-ExtraLightItalic';
+export const IBM_PLEX_SANS_ITALIC = 'IBMPlexSans-Italic';
+export const IBM_PLEX_SANS_LIGHT = 'IBMPlexSans-Light';
+export const IBM_PLEX_SANS_LIGHT_ITALIC = 'IBMPlexSans-LightItalic';
+export const IBM_PLEX_SANS_MEDIUM = 'IBMPlexSans-Medium';
+export const IBM_PLEX_SANS_MEDIUM_ITALIC = 'IBMPlexSans-MediumItalic';
+export const IBM_PLEX_SANS_REGULAR = 'IBMPlexSans-Regular';
+export const IBM_PLEX_SANS_SEMI_BOLD = 'IBMPlexSans-SemiBold';
+export const IBM_PLEX_SANS_SEMI_BOLD_ITALIC = 'IBMPlexSans-SemiBoldItalic';
+export const IBM_PLEX_SANS_THIN = 'IBMPlexSans-Thin';
+export const IBM_PLEX_SANS_THIN_ITALIC = 'IBMPlexSans-ThinItalic';

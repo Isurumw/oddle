@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`storage should return null on get when their is an error 1`] = `[Error: Could not receive the test_key from cache]`;
