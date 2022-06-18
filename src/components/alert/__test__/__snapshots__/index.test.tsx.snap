@@ -1,0 +1,238 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert Component should render Alert component with error message 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#FFFFFF",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "elevation": 3,
+        "flex": 1,
+        "flexDirection": "row",
+        "paddingHorizontal": 18,
+        "paddingVertical": 10,
+        "position": "absolute",
+        "top": 47,
+        "width": "90%",
+        "zIndex": 3,
+      },
+      Object {
+        "borderColor": "#DB1515",
+      },
+    ]
+  }
+>
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight={25}
+    bbWidth={24}
+    fill="none"
+    focusable={false}
+    height={25}
+    meetOrSlice={0}
+    minX={0}
+    minY={0}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        Object {
+          "flex": 0,
+          "height": 25,
+          "width": 24,
+        },
+      ]
+    }
+    vbHeight={25}
+    vbWidth={24}
+    width={24}
+  >
+    <RNSVGGroup
+      fill={null}
+      propList={
+        Array [
+          "fill",
+        ]
+      }
+    >
+      <RNSVGPath
+        clipRule={0}
+        d="M12 5.925a6.5 6.5 0 100 13 6.5 6.5 0 000-13zm-8.5 6.5a8.5 8.5 0 1117 0 8.5 8.5 0 01-17 0z"
+        fill={4292547861}
+        fillRule={0}
+        propList={
+          Array [
+            "fill",
+            "fillRule",
+          ]
+        }
+      />
+      <RNSVGPath
+        clipRule={0}
+        d="M12 11.425a1 1 0 011 1v3a1 1 0 11-2 0v-3a1 1 0 011-1zM11 9.425a1 1 0 011-1h.006a1 1 0 110 2H12a1 1 0 01-1-1z"
+        fill={4292547861}
+        fillRule={0}
+        propList={
+          Array [
+            "fill",
+            "fillRule",
+          ]
+        }
+      />
+    </RNSVGGroup>
+  </RNSVGSvgView>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "System",
+          "fontWeight": "400",
+        },
+        Object {
+          "textAlign": "left",
+        },
+        Array [
+          Object {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          Object {
+            "color": "#000000",
+            "fontFamily": "IBMPlexSans-Regular",
+            "fontWeight": "400",
+            "textDecorationLine": "none",
+          },
+          Object {
+            "color": "#DB1515",
+            "flex": 1,
+            "paddingLeft": 10,
+            "textAlign": "left",
+          },
+        ],
+      ]
+    }
+  >
+    sample error
+  </Text>
+</View>
+`;
+
+exports[`Alert Component should render Alert component with success message 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#FFFFFF",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "elevation": 3,
+        "flex": 1,
+        "flexDirection": "row",
+        "paddingHorizontal": 18,
+        "paddingVertical": 10,
+        "position": "absolute",
+        "top": 47,
+        "width": "90%",
+        "zIndex": 3,
+      },
+      Object {
+        "borderColor": "#16AD77",
+      },
+    ]
+  }
+>
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight={25}
+    bbWidth={24}
+    fill="none"
+    focusable={false}
+    height={25}
+    meetOrSlice={0}
+    minX={0}
+    minY={0}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        Object {
+          "flex": 0,
+          "height": 25,
+          "width": 24,
+        },
+      ]
+    }
+    vbHeight={25}
+    vbWidth={24}
+    width={24}
+  >
+    <RNSVGGroup
+      fill={null}
+      propList={
+        Array [
+          "fill",
+        ]
+      }
+    >
+      <RNSVGPath
+        clipRule={0}
+        d="M22.6673 12.4247C22.6673 18.3158 17.8917 23.0914 12.0007 23.0914C6.10961 23.0914 1.33398 18.3158 1.33398 12.4247C1.33398 6.53369 6.10961 1.75806 12.0007 1.75806C17.8917 1.75806 22.6673 6.53369 22.6673 12.4247ZM9.57484 16.7573C9.96248 17.1102 10.5568 17.1039 10.9369 16.7428L18.1747 9.86562C18.5822 9.47843 18.5906 8.83155 18.1933 8.4339L18.0121 8.25248C17.6282 7.86819 17.0077 7.86069 16.6145 8.23559L10.2626 14.2931L7.64669 12.0813C7.24 11.7374 6.63517 11.7726 6.27113 12.1613L6.16149 12.2784C5.7802 12.6856 5.80571 13.3259 6.21819 13.7014L9.57484 16.7573Z"
+        fill={4279676279}
+        fillRule={0}
+        propList={
+          Array [
+            "fill",
+            "fillRule",
+          ]
+        }
+      />
+    </RNSVGGroup>
+  </RNSVGSvgView>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "System",
+          "fontWeight": "400",
+        },
+        Object {
+          "textAlign": "left",
+        },
+        Array [
+          Object {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          Object {
+            "color": "#000000",
+            "fontFamily": "IBMPlexSans-Regular",
+            "fontWeight": "400",
+            "textDecorationLine": "none",
+          },
+          Object {
+            "color": "#16AD77",
+            "paddingLeft": 14,
+            "textAlign": "left",
+          },
+        ],
+      ]
+    }
+  >
+    sample success
+  </Text>
+</View>
+`;
+
+exports[`Alert Component should render null if there is no error or success to show 1`] = `null`;
