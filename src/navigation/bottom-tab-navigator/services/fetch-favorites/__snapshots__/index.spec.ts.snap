@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check the behavior of the network service: When API throws an error 1`] = `[Error: Some API Error]`;
+
+exports[`check the behavior of the network service: fetched favorites successfully 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "
+query fetchFavorites($ids: [ID!]) {
+    products(where: {id_in: $ids}) {
+      id
+      name
+      description
+      rating
+      price
+      brand
+      tagList
+      category
+      productType
+      apiFeaturedImage
+      websiteLink
+      productLink
+    }
+  }
+",
+      Object {
+        "ids": Array [
+          "cl4cev9c23lgg0cpnu4zl3ykg",
+          "cl4cev9d83lgp0cpnot1lngtf",
+        ],
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "_U": 0,
+        "_V": 1,
+        "_W": Object {
+          "data": Object {
+            "products": Array [
+              Object {
+                "apiFeaturedImage": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/046/original/open-uri20180708-4-1f333k1?1531086651",
+                "brand": "colourpop",
+                "category": "lipstick",
+                "description": "Lippie Stix Formula contains Vitamin E",
+                "id": "cl4cev9c23lgg0cpnu4zl3ykg",
+                "name": "Lippie Stix",
+                "price": "0.5",
+                "productLink": "https://colourpop.com/collections/lippie-stix",
+                "productType": "lipstick",
+                "tagList": Array [
+                  "cruelty free",
+                  "Vegan",
+                ],
+                "websiteLink": "https://colourpop.com",
+              },
+              Object {
+                "apiFeaturedImage": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/047/original/open-uri20180708-4-e7idod?1531087336",
+                "brand": "colourpop",
+                "category": "lipstick",
+                "description": "Blotted Lip Sheer matte lipstick that creates the perfect popsicle pout!",
+                "id": "cl4cev9d83lgp0cpnot1lngtf",
+                "name": "Blotted Lip",
+                "price": "5.5",
+                "productLink": "https://colourpop.com/collections/lippie-stix?filter=blotted-lip",
+                "productType": "lipstick",
+                "tagList": Array [
+                  "cruelty free",
+                  "Vegan",
+                ],
+                "websiteLink": "https://colourpop.com",
+              },
+            ],
+          },
+        },
+        "_X": null,
+      },
+    },
+  ],
+}
+`;

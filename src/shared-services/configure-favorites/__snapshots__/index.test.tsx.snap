@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check the behavior of the network service: When API throws an error 1`] = `[Error: Some API Error]`;
+
+exports[`check the behavior of the network service: removed favorite successfully 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "favourites/cl4cev9c23lgg0cpnu4zl3ykg",
+      undefined,
+      "DELETE",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "_U": 0,
+        "_V": 1,
+        "_W": Object {
+          "success": true,
+        },
+        "_X": null,
+      },
+    },
+  ],
+}
+`;
+
+exports[`check the behavior of the network service: saved favorite successfully 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "favourites/cl4cev9c23lgg0cpnu4zl3ykg",
+      undefined,
+      "PATCH",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "_U": 0,
+        "_V": 1,
+        "_W": Object {
+          "success": true,
+        },
+        "_X": null,
+      },
+    },
+  ],
+}
+`;
